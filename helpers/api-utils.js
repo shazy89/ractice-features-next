@@ -9,13 +9,12 @@ const api = axios.create({
 
 export async function getAllEvents() {
   const res = await api.get("/events.json");
-  // const data = await response.json();
 
   const events = [];
   for (const key in res.data) {
     events.push({
       id: key,
-      ...res.data[key] // we can use the spred operator for dynamic display of the data
+      ...res.data[key]
     });
   }
   console.log(events);
