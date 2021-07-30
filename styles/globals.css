@@ -11,23 +11,20 @@ body {
   border-radius: 7px;
   background: #f0f0f0;
 }
-.__next {
-  width: 100% !important;
-  height: 100% !important;
-}
+
 .ccard-main {
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .ccard {
   width: 20ch;
   height: 20ch;
-  background: rgb(99, 61, 80);
+  border: 2px solid black;
   border-radius: 5px;
   transition: box-shadow 0.5s;
   will-change: transform;
