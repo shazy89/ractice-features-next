@@ -1,10 +1,10 @@
 import { useRef, useState } from "react";
 import { useSpring, animated, config } from "@react-spring/web";
-import { useControls } from "leva";
+//import { useControls } from "leva";
 const calc = (x, y, rect) => [
-  -(y - rect.top - rect.height / 2) / 5,
-  (x - rect.left - rect.width / 2) / 5,
-  1.4
+  -(y - rect.top - rect.height / 2.3) / 5,
+  (x - rect.left - rect.width / 2.3) / 5,
+  1.2
 ];
 const trans = (x, y, s) =>
   `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
@@ -16,7 +16,7 @@ function Card() {
   // const { preset } = useControls({
   //   preset: { value: "default", options: configList }
   // });
-  console.log(config);
+
   const props = useSpring({ xys, config: config["slow"] });
 
   return (
