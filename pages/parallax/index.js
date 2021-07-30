@@ -1,4 +1,4 @@
-import { useSpring, animated, to } from "react-spring";
+import { Parallax, ParallaxLayer, IParallax } from "@react-spring/web";
 import Image from "next/image";
 import face from "../../public/computer-icons-user-profile-person-thumbnail_bxdnq2.jpg";
 import styles from "../../styles/loading.module.css";
