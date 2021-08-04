@@ -1,6 +1,6 @@
 import { getAllEvents } from "../helpers/api-utils";
 import Button from "@material-ui/core/Button";
-//import styles from "../styles/Home.module.css";
+import MyButton from "../components/buttons/Button";
 
 export default function Home({ events }) {
   console.log(events);
@@ -10,6 +10,9 @@ export default function Home({ events }) {
       <Button variant="contained" color="primary">
         Hello World
       </Button>
+      <MyButton color="black" text="white" width={"15rem"}>
+        Hey There
+      </MyButton>
     </div>
   );
 }
