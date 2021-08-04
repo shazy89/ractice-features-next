@@ -10,7 +10,7 @@ export default function Home({ events }) {
       <Button variant="contained" color="primary">
         Hello World
       </Button>
-      <MyButton color="black" text="white" width={"15rem"}>
+      <MyButton color="black" text="white" width={12}>
         Hey There
       </MyButton>
     </div>

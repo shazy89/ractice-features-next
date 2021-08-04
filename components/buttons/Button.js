@@ -4,7 +4,7 @@ const Button = ({ children, color, text, width, height }) => {
   const custom = {
     color: text,
     backgroundColor: color,
-    width,
+    width: width + "rem",
     height
   };
   return (

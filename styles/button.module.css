@@ -10,8 +10,10 @@
     text-transform: uppercase;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     transition: all .4s;
-    
+    box-shadow: 5px 5px 24px -2px rgb(80, 79, 79);
+    border: none;
 }
-.button-root:hover {
 
+.button_root:hover {
+    transform: scale(1.1);
 }
