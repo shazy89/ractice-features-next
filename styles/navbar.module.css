@@ -3,7 +3,10 @@
     height: 4rem;
 }
 
-.logo {}
+.logo {
+    display: flex;
+}
+
 .links {
-    
+    display: flex;
 }
