@@ -2,6 +2,7 @@ import { getAllEvents } from "../helpers/api-utils";
 import Button from "@material-ui/core/Button";
 import MyButton from "../components/buttons/Button";
 import MyCard from "../components/cards/MyCard";
+import ImagesBox from "../layout/ImagesBox";
 export default function Home({ events }) {
   console.log(events);
   return (
