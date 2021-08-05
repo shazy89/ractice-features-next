@@ -1,12 +1,18 @@
 .nav {
     display: flex;
+    align-items: center;
     height: 4rem;
+  
+
 }
 
 .logo {
     display: flex;
+    width: 50%;
 }
 
 .links {
     display: flex;
+    width: 50%;
+    justify-content:space-evenly;
 }
