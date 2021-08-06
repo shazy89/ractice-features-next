@@ -7,7 +7,10 @@ export default function Home({ events }) {
   return (
     <>
       <Navbar />
-      <Structure />
+      <Scroll>
+        <Structure />
+        <Structure />
+      </Scroll>
     </>
   );
 }
