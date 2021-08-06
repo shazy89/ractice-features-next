@@ -6,13 +6,13 @@ const OnScrollNavigation = () => {
   const [scrollHeight, setScrollHeight] = useState(0);
 
   const onScroll = (e) => {
-    setScrollHeight(e.scrollTop);
+    setScrollHeight(e.target.scrollTop);
   };
   console.log(scrollHeight);
   return (
-    <div onScroll={onScroll}>
+    <>
       <Navbar />
-    </div>
+    </>
   );
 };
 
