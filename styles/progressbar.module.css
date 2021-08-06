@@ -1,0 +1,23 @@
+.container {
+    height: 20px;
+    width: 80%;
+    border-radius: 50px;
+    background-color: #680303;
+    border: 1px solid rgb(182, 182, 182);
+    margin: 2rem;
+}
+
+.bar {
+   
+
+border-radius: 50%;
+text-align: center;
+background-color: red;
+border-radius: inherit;
+height: 100%;
+}
+.label {
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}

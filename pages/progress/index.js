@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect, useState, useRef } from "react";
+import progressbar from "../../styles/progressbar.module.css";
 
-const ProgressBar = () => {
-  return <div></div>;
+const Progress = ({ status }) => {
+
+
+  console.log(counter);
+  return (
+      
+
+  );
 };
 
-export default ProgressBar;
+export default Progress;
