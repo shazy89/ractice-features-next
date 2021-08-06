@@ -2,17 +2,17 @@
     display: flex;
     align-items: center;
     height: 4rem;
-    /*
+   
     border-bottom: 1px solid rgb(54, 54, 54);
     box-shadow: 5px 22px 12px 1px rgb(77, 77, 77);
-    */
+   
 }
 
 .logo {
     display: flex;
     width: 50%;
     list-style: none;
-    height: 3rem;
+
 }
 
 .links {
@@ -20,21 +20,7 @@
     width: 50%;
     justify-content:space-evenly;
     list-style: none;
-    font-size: 1.5rem;
-    height: 3rem;
 
   
 }
-.link {
-    padding: .3rem;
-    transform: skewY(10deg);
-    display: inline-block;
-    transition: all .4s;
-    text-decoration: none;
 
-}
-.link:hover {
-    border-bottom: 2px solid black;
-  
-    border-bottom-left-radius: 16px;
-}
