@@ -12,6 +12,14 @@ export default function Home({ events }) {
         <Structure />
         <Structure />
       </Scroll>
+      <Scroll>
+        <Structure />
+        <Structure />
+      </Scroll>
+      <Scroll>
+        <Structure />
+        <Structure />
+      </Scroll>
     </>
   );
 }
