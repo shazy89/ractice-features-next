@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import progressbar from "../../styles/progressbar.module.css";
 
-const ProgressBar = () => {
+const ProgressBar = ({ status }) => {
   const [counter, setCounter] = useState(0);
   // let completed = 70;
   useEffect(() => {
